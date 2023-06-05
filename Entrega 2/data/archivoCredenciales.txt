@@ -1,0 +1,8 @@
+Pabloo;12345;12345;12345;Empleado;Prueba;12345
+administrador;0000;0000;administrador@hotel.co;Administrador;administrador;administrador
+Administrador;0000;0000;administrador@hotel.co;Administrador;Administrador;Administrador
+Gabriel;132234123;320321334;gabriel@hotel.com;Recepcionista;Recepcionista;1234
+Empleado;0000;0000;Empleado@hotel.co;Empleado;Empleado;Empleado
+Juan;1024;3234323;j.baldion@uniandes.edu.co;Empleado;empleado;12345
+Juan Pablo;102345;32352142;j.baldion;Recepcionista;JP;12345
+admin;0000;0000;admin@hotel.co;Administrador;admin;admin

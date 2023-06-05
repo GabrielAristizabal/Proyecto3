@@ -1,0 +1,37 @@
+Desayuno Mexicano,14500,0700:1000,true
+Croissant de Jamón y Queso,12000,0700:1000,true
+Tostadas Francesas,13200,0700:1000,true
+Huevos Benedictinos,16200,0700:1000,true
+Panqueques de Blueberry,13900,0700:1000,true
+Omelette de Espinacas,15200,0700:1000,true
+Acai Bowl,17500,0700:1000,true
+Bagel de Salmón,16800,0700:1000,true
+Desayuno Energético,18500,0700:1000,true
+Enchiladas Verdes,15700,0700:1000,true
+Pollo al Curry con Arroz Basmati,21500,1200:1600,false
+Tacos de Pescado,19800,1200:1600,false
+Bowl de Quinoa y Vegetales Asados,20500,1200:1600,false
+Pasta Primavera,18900,1200:1600,false
+Sándwich de Pollo a la Parrilla,17500,1200:1600,false
+Ensalada de Salmón y Aguacate,22500,1200:1600,false
+Ternera con Puré de Papas,24800,1200:1600,false
+Rollitos de Primavera,17900,1200:1600,false
+Sopa de Tomate y Albahaca,15900,1200:1600,false
+Ceviche Mixto,20800,1200:1600,false
+Risotto de Champiñones,23500,1800:2100,false
+Salmón Teriyaki con Verduras Salteadas,26800,1800:2100,false
+Lomo de Res con Puré de Calabaza,28500,1800:2100,false
+Paella de Mariscos,25800,1800:2100,false
+Ensalada Caprese,19500,1800:2100,false
+Pasta Alfredo con Pollo,22500,1800:2100,false
+Pescado a la Parrilla con Salsa de Limón,24500,1800:2100,false
+Berenjenas Rellenas de Quinoa,19800,1800:2100,false
+Tofu Salteado con Vegetales,21500,1800:2100,false
+Wrap de Pollo y Aguacate,18500,1800:2100,false
+Smoothie de Frutas Tropicales,7500,0600:2200,true
+Mojito de Fresa,9500,0600:2200,true
+Café Espresso,3900,0600:2200,true
+Jugo Detox,8200,0600:2200,true
+Limonada,7700,0600:2200,true
+Agua,2200,0600:2200,true
+Gaseosa,5100,0600:2200,true

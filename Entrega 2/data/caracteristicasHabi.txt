@@ -1,0 +1,5 @@
+Suite-301;Aire Acondicionado,true;Calefacción,false;TV,true;Cafetera,false;Hipoalergénicos,false;Plancha,true;Secador,false;Voltaje AC,true;Tomas USB-A,true;Tomas USB-C,true;Desayuno,false
+Estandar-450;Aire Acondicionado,false;Calefacción,false;TV,true;Cafetera,false;Hipoalergénicos,false;Plancha,false;Secador,false;Voltaje AC,true;Tomas USB-A,true;Tomas USB-C,false;Desayuno,false
+Estandar-101;Aire Acondicionado,false;Calefacción,false;TV,true;Cafetera,false;Hipoalergénicos,false;Plancha,false;Secador,false;Voltaje AC,true;Tomas USB-A,true;Tomas USB-C,false;Desayuno,false
+Suite_Doble-601;Aire Acondicionado,true;Calefacción,true;TV,true;Cafetera,true;Hipoalergénicos,true;Plancha,true;Secador,true;Voltaje AC,true;Tomas USB-A,true;Tomas USB-C,true;Desayuno,true
+Suite-303;Aire Acondicionado,true;Calefacción,false;TV,true;Cafetera,false;Hipoalergénicos,false;Plancha,true;Secador,false;Voltaje AC,true;Tomas USB-A,true;Tomas USB-C,true;Desayuno,false
