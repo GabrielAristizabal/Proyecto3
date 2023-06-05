@@ -1,0 +1,2 @@
+Guia Turustico,Grupal,80000
+SPA,Individual,50000

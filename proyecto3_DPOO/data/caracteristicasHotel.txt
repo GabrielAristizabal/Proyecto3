@@ -1,0 +1,8 @@
+Parqueadero gratituo;true
+Parqueadero pago;false
+Piscina;true
+Zonas humedas;false
+BBQ;true
+Wifi;true
+Recepción 24 horas;true
+Mascotas;false

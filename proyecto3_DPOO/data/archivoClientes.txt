@@ -1,0 +1,3 @@
+Juan;123456;3143;correo.com;null;null;[];[]
+Aldo;123456789;313854543;correo.com;null;20230513001;[];[]
+JPablo;12345;1324;djq;null;20230512001;[];[]
