@@ -1,35 +1,47 @@
 package pasarela;
 
-public class PayPal {
-  	private String numeroCuenta;
-    private String nombrePropietario;
-    private double saldo;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
 
-    public PayPal() {
-        this.numeroCuenta = numeroCuenta;
-        this.nombrePropietario = nombrePropietario;
-        this.saldo = saldo;
+
+public class PayPal {
+  	private clientePayPal clienteActivo;
+  	private HashMap<String, clientePayPal> clientes;
+
+    public PayPal() throws IOException {
+    	File archivoClientes = new File("/DataServicio/infoPayPal.txt");
+    	BufferedReader br = new BufferedReader(new FileReader(archivoClientes));
+		String linea = br.readLine();
+		while (linea != null) {
+			String[] informacion = linea.split(";");
+			String cuenta = informacion[0];
+			String nombre = informacion[1];
+			int saldo = Integer.parseInt(informacion[2]);
+			clientePayPal cliente = new clientePayPal(cuenta, nombre, saldo);
+			clientes.put(cuenta, cliente);
+			linea = br.readLine();
+		}
+		br.close();
     }
 
     public String getNumeroCuenta() {
-        return numeroCuenta;
+        return clienteActivo.getNumeroCuenta();
     }
 
     public String getNombrePropietario() {
-        return nombrePropietario;
+        return clienteActivo.getNombrePropietario();
     }
 
     public double getSaldo() {
-        return saldo;
+        return clienteActivo.getSaldo();
     }
+    
 
-    public void pagar(double monto) {
-        if (saldo >= monto) {
-            saldo -= monto;
-            System.out.println("Pago exitoso. Nuevo saldo: " + saldo);
-        } else {
-            System.out.println("No hay suficiente saldo en la cuenta. Saldo actual: " + saldo);
-        }
+    public boolean pagar(int monto) {
+        return clienteActivo.pagar(monto);
     }
 }
 
